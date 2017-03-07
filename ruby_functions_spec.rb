@@ -64,28 +64,19 @@ class Functions_Practice < MiniTest::Test
     assert_equal( "Sep", ninth_month_string )
   end
 
-  # def test_multiply()
-  #   multiply_result = multiply( 4, 2 )
-  #   assert_equal( 8, multiply_result )
-  # end
-#expected, actual
-  # #Given the length of a side of a cube calculate the volume
   def test_volume_of_cube()
     volume_result = volume(2)
     assert_equal(8, volume_result)
   end
 
-  # #Given the radius of a sphere calculate the volume
   def test_volume_of_sphere()
     volume_result = volume_sphere(3)
     assert_equal(113.1, volume_result)
   end
 
-  # #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
     f_to_c = convert_f_to_c(72)
     assert_equal(22.22, f_to_c)
   end
-
 
 end
