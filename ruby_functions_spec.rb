@@ -78,5 +78,4 @@ class Functions_Practice < MiniTest::Test
     f_to_c = convert_f_to_c(72)
     assert_equal(22.22, f_to_c)
   end
-
 end
