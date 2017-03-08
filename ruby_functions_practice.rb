@@ -65,6 +65,9 @@ def number_to_short_month_name(month_int)
   number_to_full_month_name(month_int).slice(0, 3)
 end
 
+#instead of slice(0, 3) could be month[0..2] or slice(0..2)
+#.. = inc ... = !inc
+
 def volume(number)
   return number ** 3
 end
